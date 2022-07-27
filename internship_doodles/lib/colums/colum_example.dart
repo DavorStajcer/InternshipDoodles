@@ -20,7 +20,8 @@ class ColumnExample extends StatelessWidget {
         ),
         Card(
           child: SizedBox(
-            height: 100,
+            //? Uncomment this in order to work properly :)
+            //height: double.infinity,
             child: Center(
               child: Text('Cardish card'),
             ),
@@ -35,7 +36,7 @@ class ColumnExample extends StatelessWidget {
           ),
         ),
 
-        /// Uncomment to see what happens
+        //? Uncomment to see what happens
         /*    Card(
           child: SizedBox(
             height: 100,
