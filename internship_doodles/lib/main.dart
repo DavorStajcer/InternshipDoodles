@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-/// Main method is the entering point of your application
+import 'package:internship_doodles/colums/colum_example.dart';
 
 void main(List<String> args) {
   runApp(const RootWidget());
@@ -13,8 +12,10 @@ class RootWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: Scaffold(
-        body: Center(
-          child: Text('Hello world'),
+        body: SafeArea(
+          //child: ListExample(),
+          child: ColumnExample(),
+          //child: ColumneExample(),
         ),
       ),
     );
